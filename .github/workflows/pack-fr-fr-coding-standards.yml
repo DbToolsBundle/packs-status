@@ -4,8 +4,8 @@ on:
   schedule:
     - cron: "42 3 * * 1"
   push:
-      paths:
-        - .github/workflows/pack-fr-fr-coding-standards.yml
+    paths:
+      - .github/workflows/pack-fr-fr-coding-standards.yml
 jobs:
   php-cs-fixer:
     name: "PHP CS Fixer"
